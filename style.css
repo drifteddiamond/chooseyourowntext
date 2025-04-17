@@ -83,7 +83,7 @@ button:hover {
     padding: 10px;
   }
 
-  .copy, .copy2, .copy3 {
+  .copy {
     top: 35%;
     left: 50%;
     font-size: 1.25rem;
@@ -91,8 +91,40 @@ button:hover {
     padding: 10px;
   }
 
-  .input2, .input3 {
+  .copy2 {
+    top: 45%;
+    left: 50%;
+    font-size: 1.25rem;
+    translate: -50% -50%;
+    padding: 10px;
+  }
+
+  .copy3 {
+    top: 55%;
+    left: 50%;
+    font-size: 1.25rem;
+    translate: -50% -50%;
+    padding: 10px;
+  }
+
+  .input {
+    top: 50%;
+    left: 50%;
+    font-size: 1rem;
+    translate: -50% -50%;
+    padding: 10px;
+  }
+
+  .input2 {
     top: 60%;
+    left: 50%;
+    font-size: 1rem;
+    translate: -50% -50%;
+    padding: 10px;
+  }
+
+  .input3 {
+    top: 70%;
     left: 50%;
     font-size: 1rem;
     translate: -50% -50%;
@@ -111,43 +143,3 @@ button:hover {
     background-color: #a00a0a;
   }
 }
-
-
-@media only screen and (max-width: 600px) and (orientation: landscape) {
-  .main {
-    top: 10%;
-    left: 50%;
-    font-size: 1.25rem;
-    translate: -50% -50%;
-    padding: 10px;
-  }
-
-  .copy, .copy2, .copy3 {
-    top: 50%;
-    left: 50%;
-    font-size: 1.5rem;
-    translate: -50% -50%;
-    padding: 10px;
-  }
-
-  .input2, .input3 {
-    top: 70%;
-    left: 50%;
-    font-size: 1rem;
-    translate: -50% -50%;
-    padding: 10px;
-  }
-
-  .button {
-    top: 80%;
-    left: 50%;
-    font-size: 4rem;
-    translate: -50% -50%;
-    padding: 15px;
-  }
-
-  button:hover {
-    background-color: #b00a0a;
-  }
-}
-
