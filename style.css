@@ -1,0 +1,75 @@
+.main {
+  top: 4%;
+  position: absolute;
+  font-size: 2rem;
+  left: 50%;
+  translate: -50% -50%;
+  border-radius: 10px;
+}
+
+.input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.5rem;
+  translate: -50% -50%;
+  border-radius: 5px;
+}
+
+.copy {
+  top: 46%;
+  left: 50%;
+  position: absolute;
+  font-size: 2rem;
+  translate: -50% -50%;
+}
+
+.button {
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  position: absolute;
+  font-size: 5rem;
+  background-color: #ee0808;
+  border-radius: 10px;
+  border: 0;
+}
+
+.input2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 1.5rem;
+  translate: -50% -50%;
+  border-radius: 5px;
+}
+
+.copy2 {
+  top: 56%;
+  left: 50%;
+  position: absolute;
+  font-size: 2rem;
+  translate: -50% -50%;
+}
+
+.input3 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-size: 1.5rem;
+  translate: -50% -50%;
+  border-radius: 5px;
+}
+
+.copy3 {
+  top: 66%;
+  left: 50%;
+  position: absolute;
+  font-size: 2rem;
+  translate: -50% -50%;
+}
+
+button:hover {
+  background-color: #cf0a0a;
+  cursor: pointer;
+}
