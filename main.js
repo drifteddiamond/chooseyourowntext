@@ -62,8 +62,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
         input3.style.display = 'block'
         write2(input2.value)
       }
-      else if (input2.value.toLowerCase() !== 'I want something else'.toLowerCase()) {
+      else if (input2.value.toLowerCase() !== 'I need more'.toLowerCase()) {
       write2(input2.value)
+      input3.style.display = 'none'
       }
       else {
           write2(input2.value)
